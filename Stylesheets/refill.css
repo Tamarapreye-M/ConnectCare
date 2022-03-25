@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+#box input{
+   box-shadow: 1px 1px 1px 1px;
+   border-bottom: 1px;
+   border-top: 0;
+   color: rgba(120, 158, 158, 0.432);
+}
+#box label{
+   padding: 2px 0px 2px 0px;
+   font-size: 20px;
+}
+@media screen and (max-width:700px) {
+ .container{
+    width: 50%;
+ }
+}
+#all{
+   width: 90%;
+}
+
+:root{
+    --mainRed: #EF231C;
+    --mainWhite: #fff;
+    --lightBlue: #48E9FF;
+    --darkblue: #0066FF;
+    --Roboto: "Roboto", sans-serif;
+}
+.navbar
+{
+    background: rgba(61, 137, 250, 0.12);
+    font-family: var(--Roboto);
+}
+.navbar-brand
+{
+    color: white;
+}
+.nav-item a
+{
+    color: black;
+}
+#blu:hover
+{
+    color: var(--darkblue) !important;
+}
+.nav-link .btn
+{
+    border-radius: 13px;  
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0,1)' stroke-width='.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: black !important;
+} 
+
+
+.btn{
+    border-radius: 0.9rem;
+}
+#login{
+    background-color: var(--darkblue);
+    color: var(--mainWhite);
+}
+#login:hover{
+    border: 1px solid var(--lightBlue);
+    background-color: var(--mainWhite);
+    color: var(--darkblue);
+}
+#emergency-btn{
+    color: var(--mainRed);
+    border: 1px solid var(--mainRed);
+}
+#emergency-btn:hover{
+    background-color: var(--mainRed);
+    color: var(--mainWhite);
+}
+
+/* footer */
+footer
+{
+    background: #8B8282;
+    z-index: -1;
+    padding-top: 50px;
+    width: 100%;
+}
+footer  ul
+{
+    display: unset;
+    list-style-type: none;
+    
+}
+.letter
+{
+    margin-left: 30px;
+}
+ul a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: #0066FF;
+}
+
+.space
+{
+    margin-top:100px;
+}
