@@ -11,6 +11,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
     <link rel="stylesheet" href="../Stylesheets/signin.css" />
   </head>
   <body>
@@ -36,18 +43,19 @@
               class="nav-link active text-dark mx-3"
               id="blu"
               aria-current="page"
-              href="landing-index.html"
+              href="index.html"
               >Home</a
             >
             <a
               class="nav-link text-dark mx-3"
               id="blu"
-              href="landing-index.html#about"
+              href="index.html#about"
               >About us</a
             >
             <a class="nav-link text-dark mx-3" id="blu" href="search.html"
               >Product</a
             >
+            <a class="nav-link text-dark mx-3"id="blu" href="resources.html">Resources</a>
             <a
               class="nav-link btn mx-3 px-3 py-2"
               href="emergency.html"
@@ -61,10 +69,12 @@
         </div>
       </div>
     </nav>
-    <div class="container p-5" id="width">
-      <div class="card" style="width: 10rem">
-        <img src="../Images/Ellipse 9.png" class="card-img-top" alt="..." />
-        <h1>sign in</h1>
+    <div class="p-5 main-card" id="width">
+      <div class="card mx-auto" style="width: 40%">
+        <div id="card-img-div" class="mx-auto">
+         <img id="main-card-img" src="../Images/Ellipse 9.png" class="card-img-top" alt="..." />
+        </div>
+        <h1 class="ps-3">Sign in</h1>
         <div class="card-body">
           <p class="card-text"></p>
           <form>
@@ -96,12 +106,54 @@
                 >remember me?</label
               >
             </div>
-            <button type="submit" class="btn btn-primary">login in</button>
+            <a href="index.html"><button type="submit" class="btn btn-primary">Login</button></a>
+            
             <li><a href="#">forgot password?</a></li>
           </form>
         </div>
       </div>
     </div>
+    <!-- overlay rectangle -->
+			<!-- <section class="px-5 pt-5 text-white">
+				<div class="container-fluid p-2 mx-auto" style="width: 100%;">
+					<div class="rect row mx-auto">
+						<div class="col-lg-3 align-self-center col-md-4 col-sm-12">
+							<h1 style="text-align: center">Contact Us</h1>
+						</div>
+						<div class="col-lg-3 align-self-center col-md-4 mx-auto col-sm-12">
+							<div class="container call">
+								<div class="truck ps-5">
+									<div class="d-flex flex-row justify-content-center">
+										<div class="flex-row">
+											<i class="fa-solid circle1 fa-truck-medical fa-2x"></i>
+										</div>
+										<div class="d-block px-3">
+											<h3 style="font-size: 15px">24-Hours Health Emerency</h3>
+											<h2 style="font-size: 25px">080002255372</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 align-self-center mx-auto col-md-4 col-sm-12">
+							<div class="container call">
+								<div class="truck ps-5">
+									<div class="d-flex flex-row justify-content-center">
+										<div class="flex-row">
+											<i class="fa-solid circle1 fa-phone d-flex fa-2x"></i>
+										</div>
+										<div class="d-block px-3">
+											<h3 style="font-size: 15px">Customer Service</h3>
+											<h2 style="font-size: 25px">080002255372</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
     <footer class="spacer">
       <div class="container-fluid p-5">
         <div class="row text-left">
@@ -140,11 +192,11 @@
             </div> -->
             <ul>
               <div class="d-flex move">
-                <li class="flex-fill"><a href="landing-index.html">Home</a></li>
+                <li class="flex-fill"><a href="index.html">Home</a></li>
                 <li class="flex-fill">
-                  <a href="landing-index.html#about">About Us </a>
+                  <a href="index.html#about">About Us </a>
                 </li>
-                <li class="flex-fill"><a href="resources.html">Services</a></li>
+                <li class="flex-fill"><a href="index.html#rect">Services</a></li>
                 <li class="flex-fill"><a href="#">Pharmacies</a></li>
               </div>
               <br />

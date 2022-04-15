@@ -4,18 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Connect Care Emergency</title>
+		<title>Payment</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="../Stylesheets/emergency.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="../Stylesheets/payment.css" />
 	</head>
 	<body>
         
-       <nav class="navbar navbar-expand-lg mb-5">
+        
+      <nav class="navbar navbar-expand-lg mb-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo w-50" src="../Images/logo3.png" alt="logo3"></a>
         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,79 +31,84 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="landing-index.html">Home</a>
-            <a class="nav-link text-dark mx-3" id="blu" href="landing-index.html#about">About us</a>
+            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-dark mx-3" id="blu" href="index.html#about">About us</a>
             <a class="nav-link text-dark mx-3"id="blu" href="search.html">Product</a>
+			<a class="nav-link text-dark mx-3"id="blu" href="resources.html">Resources</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="emergency.html" id="emergency-btn">Emergency</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="signin.html" id="login">Login</a>
           </div>
         </div>
       </div>
     </nav>
- 	<section id="first-sec" class="text-center py-5 my-5">
-			<div class="mb-5 pb-5 text-box mx-auto">
-				<h1 class="text-center">Emergency help needed?</h1>
-				<h3 class="mb-5 text-center fs-2">Just hold the button to call</h3>
-			</div>
-			<div class="circle mx-auto my-5">
-				<div
-					id="vector-div"
-					class="border border-whiteborder border-white border-5 p-3"
-				>
-					<img src="../Images/Vector.png" alt="" />
+      <section class="profile">
+            
+        </section>
+		<section class="payment px-3 pt-5">
+			<div class="payment-div p-3">
+				<h3 class="my-5 text-center">Choose a Payment method</h3>
+				<div class="row icon-div mb-5">
+					<div class="col icons">
+						<img src="/Images/Mastercard.png" alt="" />
+					</div>
+					<div class="col icons"><img src="/Images/Visa.png" alt="" /></div>
+					<div class="col icons"><img src="/Images/Paypal.png" alt="" /></div>
 				</div>
-			</div>
-			<div class="my-5 py-5">
-				<h2 class="mt-5 fw-bold">Not sure what to do?</h2>
-				<h3 class="fs-2">Pick the subject to chat</h3>
-			</div>
-		</section>
-		<section id="second-sec" class="p-5 row gap-5 container mx-auto">
-			<div class="card ps-2 col-lg border-0" style="width: 17rem">
-				<div class="card-body">
-					<h5 class="card-title fs-1 pe-4 mb-5">I had an accident</h5>
-					<div class="card-icons-div row">
-						<div class="card-icons col">
-							<img src="/Images/Arrow.png" alt="" />
+				<form action="" class="mb-5">
+					<div class="row">
+						<div class="mb-3 col-lg-8">
+							<label for="formGroupExampleInput" class="form-label"
+								>Credit Card Number</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="formGroupExampleInput"
+							/>
 						</div>
-						<div class="card-icons text-center pe-2 col">
-							<img src="/Images/Falling.png" alt="" />
+						<div class="mb-3 col-lg-4">
+							<label for="formGroupExampleInput" class="form-label"
+								>Expiry date</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="formGroupExampleInput"
+							/>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="card ps-2 col-lg border-0" style="width: 17rem">
-				<div class="card-body">
-					<h5 class="card-title fs-1 pe-5  mb-5">I have
-                        an injury</h5>
-					<div class="card-icons-div row m">
-						<div class="card-icons col">
-							<img src="/Images/Arrow.png" alt="" />
+					<div class="row">
+						<div class="mb-3 col-lg-8">
+							<label for="formGroupExampleInput" class="form-label"
+								>Card Owner's Name</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="formGroupExampleInput"
+							/>
 						</div>
-						<div class="card-icons text-center pe-2 col">
-							<img src="/Images/Pointed finger.png" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card ps-2 col-lg border-0" style="width: 17rem">
-				<div class="card-body">
-					<h5 class="card-title fs-1 pe-5 me-3 mb-5">I’m feeling
-                        bad</h5>
-					<div class="card-icons-div row ">
-						<div class="card-icons col">
-							<img src="/Images/Arrow.png" alt="" />
-						</div>
-						<div class="card-icons text-center pe-2 col">
-							<img src="/Images/Sad smiley.png" alt="" />
+						<div class="mb-3 col-lg-4">
+							<label for="formGroupExampleInput" class="form-label"
+								>Expiry date</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="formGroupExampleInput"
+							/>
 						</div>
 					</div>
+				</form>
+				<div class="button-div my-5">
+					<button type="submit" class="mx-auto btn btn-primary btn-lg">
+						MAKE PAYMENT
+					</button>
 				</div>
 			</div>
 		</section>
         
-        
-<footer>
+<footer class="spacer">
       <div class="container-fluid p-5">
         <div class="row text-left">
           <div class="col-lg-3 col-md-5 col-sm-12">
@@ -129,10 +142,10 @@
               <i class="fa-brands fa-youtube"></i>
             </div> -->
             <ul >
-    <div class="d-flex move">
-              <li class="flex-fill"><a href="landing-index.html">Home</a></li>
-              <li class="flex-fill" ><a href="landing-index.html#about">About Us </a></li>
-              <li class="flex-fill"><a href="resources.html">Services</a></li>
+               <div class="d-flex move">
+              <li class="flex-fill"><a href="index.html">Home</a></li>
+              <li class="flex-fill" ><a href="index.html#about">About Us </a></li>
+              <li class="flex-fill"><a href="index.html#rect">Services</a></li>
               <li class="flex-fill"><a href="#">Pharmacies</a></li>
               </div>
               <br>

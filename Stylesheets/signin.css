@@ -50,9 +50,48 @@
   background-color: var(--mainRed);
   color: var(--mainWhite);
 }
+#width{
+  width: 90%;
+  margin: auto;
+}
+#card-img-div{
+  width: 30%;
+  /* height: 50%; */
+}
+.main-card li{
+  list-style: none;
+}
+.main-card a{
+  text-decoration: none;
+}
+/* rect */
+/* .contact
+{
+    width: 985.38px;
+    height: 75.2px;
+}
+.rect
+{
+    padding: 3rem 0.1rem;
+    background: #0066FF;
+    width: 80%;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%); 
+}
+
+.circle1
+{
+    color: #0066FF;
+
+    border-radius: 50%;
+padding: 20px;
+background-color: white;} */
 
 /* footer */
 footer {
+  
   background: #8b8282;
   margin-top: -150px;
   z-index: -1;

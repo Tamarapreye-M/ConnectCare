@@ -127,6 +127,20 @@ i {
     background-color: var(--mainRed);
     color: var(--mainWhite);
 }
+/* rect */
+.rect
+{
+    padding: 3rem 0.1rem;
+    background: #0066FF;
+}
+
+.circle1
+{
+    color: #0066FF;
+
+    border-radius: 50%;
+padding: 20px;
+background-color: white;}
 
 /* footer */
 footer

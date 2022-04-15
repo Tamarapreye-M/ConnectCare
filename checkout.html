@@ -11,6 +11,13 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="../Stylesheets/checkout.css" />
 	</head>
 	<body>
@@ -23,9 +30,10 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="landing-index.html">Home</a>
-            <a class="nav-link text-dark mx-3" id="blu" href="landing-index.html#about">About us</a>
+            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-dark mx-3" id="blu" href="index.html#about">About us</a>
             <a class="nav-link text-dark mx-3"id="blu" href="search.html">Product</a>
+			<a class="nav-link text-dark mx-3"id="blu" href="resources.html">Resources</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="emergency.html" id="emergency-btn">Emergency</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="signin.html" id="login">Login</a>
           </div>
@@ -33,25 +41,27 @@
       </div>
     </nav>
  
-		<header class="mx-4 my-5 p-3">
-			<ul>
-				<li><a href="#">Shipping</a></li>
-				<li><a href="#">Payment</a></li>
-				<li><a href="#">Review and Place Order</a></li>
-				<li><a href="#">Back to Cart</a></li>
-				<li><a href="#">Check Out</a></li>
+		<header class=" my-5 mx-5 pt-4 py-3 px-2 ">
+			<ul class="row justify-items-center align-self-center mx-auto">
+				<li class="col-md-2 mx-auto"><a href="#">Shipping</a></li>
+				<li class="col-md-2 mx-auto"><a href="checkout.html#payment">Payment</a></li>
+				<li class="col-md-2 mx-auto"><a href="search.html">Review and Place Order</a></li>
+				<li class="col-md-2 mx-auto"><a href="cart.html">Back to Cart</a></li>
+				<li class="col-md-2 mx-auto"><a href="payment.html">Check Out</a></li>
 			</ul>
 		</header>
 		<main>
-			<section class="payment px-3">
+			<section class="payment px-3" id="payment">
 				<div class="payment-div p-3">
 					<h3 class="my-5 text-center">Choose a Payment method</h3>
 					<div class="row icon-div mb-5">
 						<div class="col icons">
-							<img src="/Images/Mastercard.png" alt="" />
+							<a href=""><img src="/Images/Mastercard.png" alt="" /></a>
 						</div>
-						<div class="col icons"><img src="/Images/Visa.png" alt="" /></div>
-						<div class="col icons"><img src="/Images/Paypal.png" alt="" /></div>
+						<div class="col icons"> <a href=""><img src="/Images/Visa.png" alt="" /></a> 
+						</div>
+						<div class="col icons"> <a href=""><img src="/Images/Paypal.png" alt="" /></a> 
+						</div>
 					</div>
 					<form action="" class="mb-5">
 						<div class="row">
@@ -162,7 +172,7 @@
 			</section>
 			<section class="order mt-5 px-3">
 				<h3>Order Summary</h3>
-				<div class="row my-5 py-3 px-2 table-div container-fluid">
+				<div class="row my-5 py-3 px-2 table-div container-fluid" >
 					<div class="col-6 mb-3">Subtotal</div>
 					<div class="col-6 mb-3 text-center">NGN</div>
 					<div class="col-6 my-3">Shipping</div>
@@ -216,9 +226,9 @@
             </div> -->
             <ul >
         <div class="d-flex move">
-              <li class="flex-fill"><a href="landing-index.html">Home</a></li>
-              <li class="flex-fill" ><a href="landing-index.html#about">About Us </a></li>
-              <li class="flex-fill"><a href="resources.html">Services</a></li>
+              <li class="flex-fill"><a href="index.html">Home</a></li>
+              <li class="flex-fill" ><a href="index.html#about">About Us </a></li>
+              <li class="flex-fill"><a href="index.html#rect">Services</a></li>
               <li class="flex-fill"><a href="#">Pharmacies</a></li>
               </div>
               <br>

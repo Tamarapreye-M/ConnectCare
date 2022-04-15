@@ -15,16 +15,23 @@ header {
 	color: white;
 	align-items: center;
 }
-ul {
-	display: flex;
-	justify-content: space-evenly;
+header ul {
+	/* display: flex;
+	justify-content: space-evenly; */
+	width: 100%;
 }
-li {
+
+header li {
 	list-style: none;
 	text-decoration: none;
+	width: 100%;
+	
 }
-a {
+header ul a {
+	color: #0066ff;
 	text-decoration: none;
+	width: 100%;
+	
 }
 .payment {
 	width: 100%;
@@ -68,11 +75,12 @@ label {
 	width: 100%;
 }
 .order {
-	width: 100%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	margin: auto;
 }
 .order h3 {
 	color: #3f83ff;
@@ -81,6 +89,7 @@ label {
 	border: 1px solid #0066ff;
 	border-radius: 20px;
 	color: #3f83ff;
+	width: 50%;
 }
 .order .foot {
 	display: flex;

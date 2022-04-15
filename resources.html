@@ -4,14 +4,20 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Refill page</title>
+   <title>Resorces</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="../Stylesheets/refill.css">
+   <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+   <link rel="stylesheet" href="../Stylesheets/resources.css">
 </head>
-<body>
-    
-     <nav class="navbar navbar-expand-lg mb-5">
+<body >
+    <nav class="navbar navbar-expand-lg mb-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo w-50" src="../Images/logo3.png" alt="logo3"></a>
         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,58 +25,71 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="landing-index.html">Home</a>
-            <a class="nav-link text-dark mx-3" id="blu" href="landing-index.html#about">About us</a>
+            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-dark mx-3" id="blu" href="index.html#about">About us</a>
             <a class="nav-link text-dark mx-3"id="blu" href="search.html">Product</a>
+            <a class="nav-link text-dark mx-3"id="blu" href="resources.html">Resources</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="emergency.html" id="emergency-btn">Emergency</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="signin.html" id="login">Login</a>
           </div>
         </div>
       </div>
     </nav>
- <div class="container-fluid ms-auto p-3 px-5 pt-3" id="all">
-   <div class="text text-left text-primary"><h2>Upload your prescription</h2></div>
-    <div class="ms-auto pt-5" id="box">
-      <div>
-        <label for="firstName" aria-relevant="text" aria-required="true">First name*</label>
-        <input type="text" class="form-control" list="datalistOptions" required id="exampleDataList"> 
-     </div>
-      <div>
-       <label for="lastName" aria-relevant="text" aria-required="true" > Last name*</label>
-       <input type="text" class="form-control" list="datalistOptions" required id="exampleDataList">
+    <div class="container mx-auto mt-3 p-4" id="wrapper">
+      <div class="body">
+         <div class="card-center ">
+           <div class="py-2 px-2 mb-4" id="box">
+             <h5 class="card-title text-center text-primary">Objectives</h5>
+              <ul class="text text-dark">
+                <li>Aim to connect patients to legalised pharmacies in order to limit access to falsified drug.</li>
+                <li>Improve timely access to medications.</li>
+              </ul>
+          </div>
+          <div class=" mb-4 px-2 py-2" id="box">
+              <h5 class="card-title text-center text-primary">Vision</h5>
+             <ul class="text text-dark">
+                <li>To be the No 1. platform used to access pharmaceutical products in Nigeria.</li>
+             </ul>
+          </div>
+          <div class="mb-4 py-2 px-2" id="box">
+             <h5 class="card-title text-center text-primary">Mission</h5>
+              <ul class="text text-dark">
+                <li>To connect patients to pharmacies.</li>
+                <li>To leverage the power of technology to ensure the right medicines gets to the needed hands at the right time with Zero stress.</li>
+             </ul>
+           </div>
+   
+        </div>
+   
       </div>
-      <div>
-         <label for="phoneNumber" aria-required="true">Phone number*</label>
-       <input type="tel" class="form-control" list="datalistOptions" id="exampleDataList">
-     </div>
-      <div>
-         <label for="hospitalName">Name of your hospital*</label>
-       <input type="text" class="form-control" list="datalistOptions" id="exampleDataList">
-     </div>
-      <div>
-         <label for="location">Location*</label>
-       <input type="text" class="form-control" list="datalistOptions" id="exampleDataList">
-     </div>
-      <div>
-         <label for="doctorsName">Your doctors name*</label>
-       <input type="text" class="form-control" list="datalistOptions" id="exampleDataList">
-     </div>
-      <div>
-         <label for="doctorsNumber">Doctor's phone number*</label>
-       <input type="tel" class="form-control" list="datalistOptions" id="exampleDataList">
-     </div>
-     
+      <div class="text-center">
+         <div class="text text-center fs-1 pt-4 pb-2 text-primary">
+            Analysis
+         </div>
+         <div class="img-center mx-auto " id="img">
+           <div><img src="/Connect-Care-main-update/Connect-Care-main/Images/image 4.png" alt=""></div>
+            <div><img src="../Images/image 5.png" alt=""></div>
+            <div><img src="../Images/image 6.png" alt=""></div>
+            <div><img src="../Images/image 7.png" alt=""></div>
+            <div><img src="../Images/image 8.png" alt=""></div>
+            <div><img src="../Images/image 9.png" alt=""></div>
+            <div><img src="../Images/image 10.png" alt=""></div>
+            <div><img src="../Images/image 11.png" alt=""></div>
+            <div><img src="../Images/image 12.png" alt=""></div>
+         </div>
+      
+      </div>
+   
+      <div class="text-left text ps-5 pt-5 pb-1" id="link">
+       <div class="text-left fs-3 fw-bold">
+          <p>Product Case Study <br> click here:</p>
+            
+         </div>
+         <a href="https://www.figma.com/proto/sfPml0KWiDruke0iARFfdM/Connect-care-case-study?node-id=6%3A838&scaling=min-zoom&page-id=6%3A837">https://www.figma.com/proto/sfPml0KWiDruke0iARFfdM/Connect-care-case-study?node-id=6%3A838&scaling=min-zoom&page-id=6%3A837</a>
+      </div>
    </div>
-   <div class="text text-primary pt-4 text-center">
-    <p>click to add to a photo of your prescription in jpg,jpeg or png format. Max. size is {5MB} </p>
-      <input type="button" role="button" class="btn btn-primary px-5 py-2" value="Upload">
-   </div>
-
-</div>
-    
-    
-
-<footer class="space">
+   
+   <footer class="space">
       <div class="container-fluid p-5">
         <div class="row text-left">
           <div class="col-lg-3 col-md-5 col-sm-12">
@@ -105,9 +124,9 @@
             </div> -->
             <ul >
               <div class="d-flex move">
-              <li class="flex-fill"><a href="landing-index.html">Home</a></li>
-              <li class="flex-fill" ><a href="landing-index.html#about">About Us </a></li>
-              <li class="flex-fill"><a href="resources.html">Services</a></li>
+              <li class="flex-fill"><a href="index.html">Home</a></li>
+              <li class="flex-fill" ><a href="index.html#about">About Us </a></li>
+              <li class="flex-fill"><a href="index.html#rect">Services</a></li>
               <li class="flex-fill"><a href="#">Pharmacies</a></li>
               </div>
               <br>
@@ -142,6 +161,18 @@
 
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+<!-- box-sizing: content-box; -->

@@ -4,13 +4,22 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Resorces</title>
+   <title>CONNECT CARE</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="../Stylesheets/resources.css">
+   <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+   <link rel="stylesheet" href="../Stylesheets/createaccout.css">
 </head>
-<body >
-    <nav class="navbar navbar-expand-lg mb-5">
+<body>
+   <!-- start of text one -->
+
+      <nav class="navbar navbar-expand-lg mb-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo w-50" src="../Images/logo3.png" alt="logo3"></a>
         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,70 +27,74 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="landing-index.html">Home</a>
-            <a class="nav-link text-dark mx-3" id="blu" href="landing-index.html#about">About us</a>
+            <a class="nav-link active text-dark mx-3" id="blu" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link text-dark mx-3" id="blu" href="index.html#about">About us</a>
             <a class="nav-link text-dark mx-3"id="blu" href="search.html">Product</a>
+            <a class="nav-link text-dark mx-3"id="blu" href="resources.html">Resources</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="emergency.html" id="emergency-btn">Emergency</a>
             <a class="nav-link btn mx-3 px-3 py-2" href="signin.html" id="login">Login</a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="container mx-auto mt-3 p-4" id="wrapper">
-      <div class="body">
-         <div class="card-center ">
-           <div class="py-2 px-2 mb-4" id="box">
-             <h5 class="card-title text-center text-primary">Objectives</h5>
-              <ul class="text text-dark">
-                <li>Aim to connect patients to legalised pharmacies in order to limit access to falsified drug.</li>
-                <li>Improve timely access to medications.</li>
-              </ul>
-          </div>
-          <div class=" mb-4 px-2 py-2" id="box">
-              <h5 class="card-title text-center text-primary">Vision</h5>
-             <ul class="text text-dark">
-                <li>To be the No 1. platform used to access pharmaceutical products in Nigeria.</li>
-             </ul>
-          </div>
-          <div class="mb-4 py-2 px-2" id="box">
-             <h5 class="card-title text-center text-primary">Mission</h5>
-              <ul class="text text-dark">
-                <li>To connect patients to pharmacies.</li>
-                <li>To leverage the power of technology to ensure the right medicines gets to the needed hands at the right time with Zero stress.</li>
-             </ul>
-           </div>
-   
-        </div>
-   
-      </div>
-      <div class="text-center">
-         <div class="text text-center fs-1 pt-4 pb-2 text-primary">
-            Analysis
+  
+   <div class="container border border-1 border-primary">
+      <div id="container">
+         <div class="text-center text-primary pt-1 ">
+            <h2 class="text-primary fs-2 text-center">Create your account</h2>
+            <p class="text fs-4 p-0">Sign up as Patient</p>
          </div>
-         <div class="img-center mx-auto " id="img">
-           <div><img src="/Connect-Care-main-update/Connect-Care-main/Images/image 4.png" alt=""></div>
-            <div><img src="../Images/image 5.png" alt=""></div>
-            <div><img src="../Images/image 6.png" alt=""></div>
-            <div><img src="../Images/image 7.png" alt=""></div>
-            <div><img src="../Images/image 8.png" alt=""></div>
-            <div><img src="../Images/image 9.png" alt=""></div>
-            <div><img src="../Images/image 10.png" alt=""></div>
-            <div><img src="../Images/image 11.png" alt=""></div>
-            <div><img src="../Images/image 12.png" alt=""></div>
-         </div>
-      
-      </div>
-   
-      <div class="text-left text ps-5 pt-5 pb-1" id="link">
-       <div class="text-left fs-3 fw-bold">
-          <p>Product Case Study <br> click here:</p>
+      <!-- end of text one -->
+     <!--start of form one  -->
+         <div class="container p-3">
+            <div class="row mt-3 px-4 ">
+               <form action="">
+                  <div class="d-flex" id="box">
+                     <div class="col">
+                        <label for="firstName"></label>
+                        <input class="form-control border border-1 border-primary form-control-lg" type="text" placeholder="First Name" aria-label="First Name" id="text">
+                     </div>
+                     <div class="col ms-3">  
+                        <label for="lastName"></label>
+                        <input class="form-control  border border-1 border-primary form-control-lg" type="text" placeholder="Last Name" aria-label="Last Name" id="text">
+                     </div>
+                  </div>   
+                  <div class="col">  
+                     <label for="email"></label>
+                     <input class="form-control  border border-1 border-primary form-control-lg" type="email" placeholder="Email"  aria-label="Email" id="text">
+                  </div>
+                  <div class="col">
+                     <label for="number"></label>  
+                     <input class="form-control  border border-1 border-primary form-control-lg" type="number" placeholder="Phone Number" aria-label="Phone Number" id="text">
+                  </div>
+                  <div class="d-flex">
+                     <div class="col"> 
+                        <label for="password"></label>  
+                        <input class="form-control  border border-1 border-primary form-control-lg" type="password" placeholder="Password" aria-label="Password" id="text">
+                     </div>
+                     <div class="col ms-3">
+                        <label for="confirmPassword"></label>
+                        <input class="form-control border border-1 border-primary form-control-lg" type="password" placeholder="Confirm Password" aria-label="Confirm Password" id="text">
+                     </div>
+                  </div>    
+               </form>
+            </div>
             
-         </div>
-         <a href="https://www.figma.com/proto/sfPml0KWiDruke0iARFfdM/Connect-care-case-study?node-id=6%3A838&scaling=min-zoom&page-id=6%3A837">https://www.figma.com/proto/sfPml0KWiDruke0iARFfdM/Connect-care-case-study?node-id=6%3A838&scaling=min-zoom&page-id=6%3A837</a>
-      </div>
+            <div class="text-primary pt-3">
+               <p class="text-center fs-4">By clicking sign up, you agree to our terms and our Privacy Policy </p>
+          </div>
+          <div class="mx-auto d-flex">
+             <button class="btn btn-primary mx-auto py-2 px-5" id="button">Sign Up</button>
+           </div>
+         </div>  
+      </div>  
    </div>
-   
-   <footer class="space">
+
+ <!-- end of form one -->
+
+
+
+<footer class="spacer">
       <div class="container-fluid p-5">
         <div class="row text-left">
           <div class="col-lg-3 col-md-5 col-sm-12">
@@ -115,10 +128,10 @@
               <i class="fa-brands fa-youtube"></i>
             </div> -->
             <ul >
-              <div class="d-flex move">
-              <li class="flex-fill"><a href="landing-index.html">Home</a></li>
-              <li class="flex-fill" ><a href="landing-index.html#about">About Us </a></li>
-              <li class="flex-fill"><a href="resources.html">Services</a></li>
+          <div class="d-flex move">
+              <li class="flex-fill"><a href="index.html">Home</a></li>
+              <li class="flex-fill" ><a href="index.html#about">About Us </a></li>
+              <li class="flex-fill"><a href="index.html#rect">Services</a></li>
               <li class="flex-fill"><a href="#">Pharmacies</a></li>
               </div>
               <br>
@@ -156,15 +169,8 @@
 
 
 
-
-
-
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-</html>
+</html>  
 
-
-
-
-<!-- box-sizing: content-box; -->
+   
