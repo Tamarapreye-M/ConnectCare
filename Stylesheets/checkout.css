@@ -95,7 +95,14 @@ label {
 	display: flex;
 	justify-content: space-evenly;
 }
-
+@media screen and (max-width: 425px) {
+	.table-div {
+		width: 90% !important;
+	}
+	/* .shipping form{
+		width: ;
+	} */
+}
 
 :root{
     --mainRed: #EF231C;

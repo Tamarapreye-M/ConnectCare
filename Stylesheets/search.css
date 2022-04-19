@@ -8,16 +8,10 @@ body {
 	width: 70%;
 	margin-top: 2rem;
 } */
-.rectangle{
-  border: 1rem solid black;
-  border-radius: 5rem;
-  /* height: 8rem; */
-}
-
 
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url(images/bgimage.png);
+		url(../Images/bgimage.png);
 	height: 80vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -37,27 +31,33 @@ header h1 {
 header p {
 	font-size: 2rem;
 }
+.rectangle {
+	border: 1rem solid black;
+	border-radius: 5rem;
+	/* height: 8rem; */
+}
 i {
 	font-size: 5rem;
 	color: black;
 }
-.categories a, a:hover {
-  text-decoration: none;
-  color: black;
+.categories a,
+a:hover {
+	text-decoration: none;
+	color: black;
 }
-.cat-button p:hover{
-  background-color: black;
-  color: white;
+.cat-button p:hover {
+	background-color: black;
+	color: white;
 }
 #search-form,
 #search-form:focus {
 	border: 1px solid white;
-  outline: none;
-  font-size: 2rem;
+	outline: none;
+	font-size: 2rem;
 }
-#search-form::placeholder{
-  font-size: 2rem;
-  font-weight: 500;
+#search-form::placeholder {
+	font-size: 2rem;
+	font-weight: 500;
 }
 #border {
 	margin-top: 9rem;
@@ -69,13 +69,12 @@ i {
 }
 
 #border p {
-	font-size: 3rem;
+	font-size: 2.8rem;
 	border: 0.5rem solid black;
 	border-radius: 1rem;
 	font-weight: 400;
 }
 #card {
-
 	margin-top: 12rem;
 	width: 80%;
 }
@@ -86,11 +85,38 @@ i {
 	/* gap: 1rem; */
 	border-radius: 1rem;
 }
-#cardchild{
-  margin: auto;
+#cardchild {
+	margin: auto;
 }
 #cardchild img {
 	width: 30rem;
+}
+@media screen and (max-width: 768px) {
+	header h1 {
+		font-size: 2rem;
+	}
+	header p {
+		font-size: 1rem;
+	}
+	i {
+		font-size: 1.5rem;
+	}
+	#search-form,
+	#search-form:focus,
+	#search-form::placeholder {
+		font-size: 1rem;
+	}
+	.rectangle {
+		border: 0.2rem solid black;
+    
+	}
+	#border h2 {
+		font-size: 2rem;
+	}
+  #border p{
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+  }
 }
 
 :root {

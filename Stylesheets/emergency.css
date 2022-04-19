@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .text-box {
-	width: 50%;
+	width: 65%;
 }
 #first-sec h1 {
 	color: #ef231c;
@@ -63,7 +63,15 @@
     width: 100%;
     
 } */
+@media screen and (max-width: 700px) {
+    #first-sec h1{
+        font-size: 2.5rem;
+    }
+    #first-sec h2{
+        font-size: 1.5rem;
+    }
 
+}
 :root {
 	--mainRed: #ef231c;
 	--mainWhite: #fff;
